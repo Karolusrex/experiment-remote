@@ -7,7 +7,7 @@ export class HomeView extends View {
     @layout.size(~100, ~25)
     @layout.stick.center()
     message = new Surface({content: `Hello ${this.options.welcomeName}`});
-
+ //Comment
     constructor(options = {}){
         super(options);
     }
